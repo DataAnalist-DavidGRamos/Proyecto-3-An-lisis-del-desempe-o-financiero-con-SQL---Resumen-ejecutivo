@@ -16,45 +16,31 @@ Proyecto de análisis financiero para AdventureWorks, donde actué como analista
 
 ## 📂 Estructura del Repositorio
 
-proyecto-3-analisis-financiero-adventureworks-sql/
-│
-├── README.md
-├── LICENSE
-├── .gitignore
-│
-├── data/
-│   ├── diccionario_datos.md
-│   └── sample_outputs/
-│       ├── ventas_clean_sample.csv
-│       └── kpis_financieros_pais_sample.csv
-│
-├── sql/
-│   ├── 01_exploracion_inicial.sql
-│   ├── 02_limpieza_y_joins.sql
-│   ├── 03_calculo_ingresos_costos.sql
-│   ├── 04_agregacion_pais.sql
-│   ├── 05_incorporacion_campanas.sql
-│   ├── 06_kpis_financieros.sql
-│   └── 07_validacion_qa.sql
-│
-├── outputs/
-│   ├── tablas/
-│   │   ├── ventas_clean.csv
-│   │   ├── ingresos_costos_pais.csv
-│   │   ├── ingresos_costos_campanas_pais.csv
-│   │   └── kpis_financieros_pais.csv
-│   └── imagenes/
-│       ├── diagrama_relacional.png
-│       └── dashboard_preview.png
-│
-├── docs/
-│   ├── diagrama_relacional.md
-│   ├── reflexiones_analista.md
-│   └── validaciones_qa.md
-│
-└── informes/
-    ├── resumen_ejecutivo_cfi.md
+## 📂 Estructura del Proyecto
 
-
+```
+📦 proyecto-3-analisis-financiero-adventureworks-sql
+ ┣ 📂 data                  # Diccionario y muestras de datos
+ ┃ ┣ 📜 diccionario_datos.md
+ ┃ ┗ 📂 sample_outputs/     # Ejemplos pequeños de resultados
+ ┣ 📂 docs                   # Documentación y análisis cualitativo
+ ┃ ┣ 📜 reflexiones_analista.md
+ ┃ ┗ 📜 validaciones_qa.md
+ ┣ 📂 informes               # Entregables finales
+ ┃ ┗ 📜 resumen_ejecutivo_cfi.md
+ ┣ 📂 outputs                # Resultados del análisis
+ ┃ ┗ 📂 tablas               # CSVs con KPIs calculados
+ ┃    ┗ 📜 kpis_financieros_pais.csv
+ ┣ 📂 sql                    # Consultas SQL organizadas por etapa
+ ┃ ┣ 📜 01_exploracion_inicial.sql
+ ┃ ┣ 📜 02_limpieza_y_joins.sql
+ ┃ ┣ 📜 03_calculo_ingresos_costos.sql
+ ┃ ┣ 📜 04_agregacion_pais.sql
+ ┃ ┣ 📜 05_incorporacion_campanas.sql
+ ┃ ┣ 📜 06_kpis_financieros.sql
+ ┃ ┗ 📜 07_validacion_qa.sql
+ ┣ 📜 .gitignore              # Archivos excluidos de Git
+ ┗ 📜 README.md               # Descripción general del proyecto
+```
     👩‍💻 Autor
 David Ramos https://www.linkedin.com/in/david-g-ramos/
