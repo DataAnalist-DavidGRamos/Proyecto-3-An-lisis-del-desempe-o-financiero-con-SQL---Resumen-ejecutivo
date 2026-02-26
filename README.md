@@ -1,2 +1,17 @@
-# Proyecto-3-An-lisis-del-desempe-o-financiero-con-SQL---Resumen-ejecutivo
-Transformo datos de ventas AdventureWorks 2017 en análisis financiero estratégico usando SQL. Calculo ingresos, costos, margen y ROI por país para identificar mercados rentables. Valido resultados con QA y presento al director financiero recomendaciones claras de inversión en marketing mediante informe ejecutivo C-F-I.
+# 📊 Análisis del Desempeño Financiero de Adventure Works con SQL
+
+## 📌 Descripción del Proyecto
+Proyecto de análisis financiero para AdventureWorks, donde actué como analista de datos para ayudar al director financiero a identificar los mercados más rentables y optimizar la inversión en marketing. Utilicé SQL para extraer, limpiar y analizar datos de ventas 2017, productos, territorios y campañas publicitarias.
+
+## 🎯 Objetivos
+- Determinar **cuánto se gana por país** (ingresos, costos, beneficio bruto)
+- Evaluar **la rentabilidad de cada mercado** considerando gastos de marketing (margen % y ROI)
+- Proporcionar recomendaciones estratégicas basadas en datos
+
+## 🛠️ Herramientas Utilizadas
+- **SQL** (PostgreSQL / BigQuery)
+- **Hojas de cálculo** para validaciones y análisis complementario
+- **Markdown** para documentación
+- **GitHub** para control de versiones
+
+## 📂 Estructura del Repositorio
