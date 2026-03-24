@@ -55,7 +55,7 @@ David Ramos https://www.linkedin.com/in/david-g-ramos/
 # 💰 AdventureWorks Financial Analytics - SQL C-Suite
 ![SQL](https://img.shields.io/badge/SQL-Expert-red)
 ![Finance](https://img.shields.io/badge/Finance-ROI%20Analysis-red)
-![Oficialsite](https://dataanalist-davidgramos.github.io/mi-sitio-web)
+
 ## 📌 Objetivo
 Destilar el universo AdventureWorks 2017 en un cuadro de mando C-Suite de 6 filas accionables.
 ## 🛠️ Stack
