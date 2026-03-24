@@ -2,6 +2,61 @@
 ![SQL](https://img.shields.io/badge/SQL-Expert-red)
 ![Finance](https://img.shields.io/badge/Finance-ROI%20Analysis-red)
 ## 📌 Objetivo
+- Destilar el universo AdventureWorks 2017 en un cuadro de mando C-Suite de 6 filas accionables.
+- Determinar **cuánto se gana por país** (ingresos, costos, beneficio bruto)
+- Evaluar **la rentabilidad de cada mercado** considerando gastos de marketing (margen % y ROI)
+- Proporcionar recomendaciones estratégicas basadas en datos
+## 🛠️ Stack
+* **SQL**: Agrupaciones y uniones territoriales.
+* **Modelado**: Beneficio Bruto, Margen % y **ROI %**.
+## 🔬 Hallazgos (Ref. Libro Blanco)
+* 🌟 **ROI Geográfico**: USA lidera con 75.75% (el doble que otros mercados).
+* 🚨 **Fricción de Capital**: Europa y Canadá destruyen valor neto en marketing.
+* 🧠 **Criterio Senior**: Diferenciación entre Margen (operación) y ROI (capital).
+# 📊 Análisis del Desempeño Financiero de Adventure Works con SQL
+
+## 📌 Descripción del Proyecto
+Proyecto de análisis financiero para AdventureWorks, donde actué como analista de datos para ayudar al director financiero a identificar los mercados más rentables y optimizar la inversión en marketing. Utilicé SQL para extraer, limpiar y analizar datos de ventas 2017, productos, territorios y campañas publicitarias.
+
+## 🛠️ Herramientas Utilizadas
+- **SQL** (PostgreSQL / BigQuery)
+- **Hojas de cálculo** para validaciones y análisis complementario
+- **Markdown** para documentación
+- **GitHub** para control de versiones
+
+## 📂 Estructura del Repositorio
+
+```
+📦 proyecto-3-analisis-financiero-adventureworks-sql
+ ┣ 📂 data                  # Diccionario y muestras de datos
+ ┃ ┣ 📜 diccionario_datos.md
+ ┃ ┗ 📂 sample_outputs/     # Ejemplos pequeños de resultados
+ ┣ 📂 docs                   # Documentación y análisis cualitativo
+ ┃ ┣ 📜 reflexiones_analista.md
+ ┃ ┗ 📜 validaciones_qa.md
+ ┣ 📂 informes               # Entregables finales
+ ┃ ┗ 📜 resumen_ejecutivo_cfi.md
+ ┣ 📂 outputs                # Resultados del análisis
+ ┃ ┗ 📂 tablas               # CSVs con KPIs calculados
+ ┃    ┗ 📜 kpis_financieros_pais.csv
+ ┣ 📂 sql                    # Consultas SQL organizadas por etapa
+ ┃ ┣ 📜 01_exploracion_inicial.sql
+ ┃ ┣ 📜 02_limpieza_y_joins.sql
+ ┃ ┣ 📜 03_calculo_ingresos_costos.sql
+ ┃ ┣ 📜 04_agregacion_pais.sql
+ ┃ ┣ 📜 05_incorporacion_campanas.sql
+ ┃ ┣ 📜 06_kpis_financieros.sql
+ ┃ ┗ 📜 07_validacion_qa.sql
+ ┣ 📜 .gitignore              # Archivos excluidos de Git
+ ┗ 📜 README.md               # Descripción general del proyecto
+```
+    👩‍💻 Autor
+David Ramos https://www.linkedin.com/in/david-g-ramos/
+# 💰 AdventureWorks Financial Analytics - SQL C-Suite
+![SQL](https://img.shields.io/badge/SQL-Expert-red)
+![Finance](https://img.shields.io/badge/Finance-ROI%20Analysis-red)
+![Oficial site](https://dataanalist-davidgramos.github.io/mi-sitio-web)
+## 📌 Objetivo
 Destilar el universo AdventureWorks 2017 en un cuadro de mando C-Suite de 6 filas accionables.
 ## 🛠️ Stack
 * **SQL**: Agrupaciones y uniones territoriales.
