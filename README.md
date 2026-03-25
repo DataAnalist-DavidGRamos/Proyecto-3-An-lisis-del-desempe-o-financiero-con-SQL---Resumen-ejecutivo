@@ -10,6 +10,7 @@
 * **SQL**: Agrupaciones y uniones territoriales.
 * **Modelado**: Beneficio Bruto, Margen % y **ROI %**.
 ## ⚙️ SQL Showcase
+```sql
 /* Query Principal: Cálculo de Rentabilidad por País */
 SELECT 
     t.Name AS Pais,
@@ -23,6 +24,7 @@ FROM FactInternetSales s
 JOIN DimSalesTerritory t ON s.SalesTerritoryKey = t.SalesTerritoryKey
 GROUP BY t.Name
 ORDER BY Total_Ingresos DESC;
+```
 
 ## 🔬 Hallazgos (Ref. Libro Blanco)
 * 🌟 **ROI Geográfico**: USA lidera con 75.75% (el doble que otros mercados).
