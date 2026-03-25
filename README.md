@@ -10,6 +10,7 @@
 * **SQL**: Agrupaciones y uniones territoriales.
 * **Modelado**: Beneficio Bruto, Margen % y **ROI %**.
 ## ⚙️ SQL Showcase
+![SQL](https://img.shields.io/badge/Language-SQL-blue?style=for-the-badge&logo=microsoft-sql-server)
 ```sql
 /* Query Principal: Cálculo de Rentabilidad por País */
 SELECT 
