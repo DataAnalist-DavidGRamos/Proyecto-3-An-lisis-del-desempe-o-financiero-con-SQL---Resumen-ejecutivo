@@ -9,6 +9,21 @@
 ## 🛠️ Stack
 * **SQL**: Agrupaciones y uniones territoriales.
 * **Modelado**: Beneficio Bruto, Margen % y **ROI %**.
+## ⚙️ SQL Showcase
+/* Query Principal: Cálculo de Rentabilidad por País */
+SELECT 
+    t.Name AS Pais,
+    SUM(s.SalesAmount) AS Total_Ingresos,
+    SUM(s.TotalProductCost) AS Costo_Produccion,
+    -- Cálculo del Beneficio Bruto
+    (SUM(s.SalesAmount) - SUM(s.TotalProductCost)) AS Beneficio_Bruto,
+    -- Cálculo del Margen Porcentual
+    ROUND(((SUM(s.SalesAmount) - SUM(s.TotalProductCost)) / SUM(s.SalesAmount)) * 100, 2) AS Margen_Pct
+FROM FactInternetSales s
+JOIN DimSalesTerritory t ON s.SalesTerritoryKey = t.SalesTerritoryKey
+GROUP BY t.Name
+ORDER BY Total_Ingresos DESC;
+
 ## 🔬 Hallazgos (Ref. Libro Blanco)
 * 🌟 **ROI Geográfico**: USA lidera con 75.75% (el doble que otros mercados).
 * 🚨 **Fricción de Capital**: Europa y Canadá destruyen valor neto en marketing.
