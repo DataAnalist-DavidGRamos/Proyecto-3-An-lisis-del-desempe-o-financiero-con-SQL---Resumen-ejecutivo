@@ -44,7 +44,7 @@ Proyecto de análisis financiero para AdventureWorks, donde actué como analista
 - **GitHub** para control de versiones
 
 ## 📂 Estructura del Repositorio
-
+![Proyecto3](proyecto-3-analisis-financiero-adventureworks-sql)
 ```
 📦 proyecto-3-analisis-financiero-adventureworks-sql
  ┣ 📂 data                  # Diccionario y muestras de datos
