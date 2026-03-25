@@ -13,6 +13,7 @@
 ![SQL](https://img.shields.io/badge/Language-SQL-blue?style=for-the-badge&logo=microsoft-sql-server)
 ```sql
 /* Query Principal: Cálculo de Rentabilidad por País */
+/* En este bloque utilizo **Common Table Expressions (CTEs)** y funciones de agregación para determinar la salud financiera por territorio.*/
 SELECT 
     t.Name AS Pais,
     SUM(s.SalesAmount) AS Total_Ingresos,
