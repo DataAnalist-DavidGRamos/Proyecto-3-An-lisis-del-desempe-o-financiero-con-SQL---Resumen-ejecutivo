@@ -6,6 +6,9 @@
 - Determinar **cuánto se gana por país** (ingresos, costos, beneficio bruto)
 - Evaluar **la rentabilidad de cada mercado** considerando gastos de marketing (margen % y ROI)
 - Proporcionar recomendaciones estratégicas basadas en datos
+
+![Resumen_final](https://docs.google.com/spreadsheets/d/1HMy9iXdlln5W8u0HImemepPrORY_1CjKY2khJveNCNA/edit?usp=edit)
+
 ## 🛠️ Stack
 * **SQL**: Agrupaciones y uniones territoriales.
 * **Modelado**: Beneficio Bruto, Margen % y **ROI %**.
