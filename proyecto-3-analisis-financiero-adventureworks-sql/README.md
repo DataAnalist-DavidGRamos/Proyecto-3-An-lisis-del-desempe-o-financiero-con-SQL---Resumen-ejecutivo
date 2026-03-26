@@ -28,7 +28,3 @@ Proyecto de análisis financiero para AdventureWorks, donde actué como analista
 
 \- \*\*GitHub\*\* para control de versiones
 
-
-
-\## 📂 Estructura del Repositorio
-
